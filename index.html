@@ -2,10 +2,32 @@
 <!-- saved from url=(0058)file:///C:/Users/ADMIN/OneDrive/Desktop/alvarez/index.html -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
   <style>
-*/{
+*{
       background-color: rgba(39, 222, 29, 0.776);
       text-align: center; 
     }
+
+    .container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.888);
+    padding: 10px;
+  }
+  .header, .footer, .s, .sidebar {
+    background-color: rgb(233, 76, 189);
+    color: white;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+  .sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+  }
     @media (min-width: 250px){
     .container {
       display: grid;
